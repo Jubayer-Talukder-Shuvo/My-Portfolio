@@ -1,0 +1,31 @@
+
+.nav-ul li a {
+    position: relative; /* Essential for positioning the ::after element */
+    display: inline-block; /* Allows the padding and pseudo-element to work correctly */
+}
+
+/* 2. Create the Underline (::after pseudo-element) */
+.nav-ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Line should be the full width of the link */
+    height: 2px; /* Thickness of the underline */
+    background-color: #275fe2; /* The requested blue color */
+    
+    /* Start the line at zero width (invisible) */
+    transform: scaleX(0); 
+    
+    /* Set the transition for the smooth animation */
+    transition: transform 0.3s ease-out; 
+    
+    /* Set the transform origin to the left so it expands from left-to-right */
+    transform-origin: left; 
+}
+
+/* 3. Animate on Hover */
+.nav-ul li a:hover::after {
+    /* On hover, scale the line to full width (100%) */
+    transform: scaleX(1);
+}
