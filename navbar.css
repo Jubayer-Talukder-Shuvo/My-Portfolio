@@ -51,7 +51,8 @@ nav{
 }
 
 .jubayercolor{
-  color: #275fe2;
+  /* color: #275fe2; */
+  color: #00aaff;
 }
 
 nav ul{
@@ -61,7 +62,8 @@ nav ul{
 }
 
 nav ul li:first-child{
-  color: #275fe2;
+  /* color: #275fe2; */
+  color: #00aaff;
 }
 
 nav ul li{

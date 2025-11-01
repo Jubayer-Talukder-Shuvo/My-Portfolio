@@ -12,7 +12,7 @@
     left: 0;
     width: 100%; /* Line should be the full width of the link */
     height: 2px; /* Thickness of the underline */
-    background-color: #275fe2; /* The requested blue color */
+    background-color: #00aaff; /* The requested blue color */
     
     /* Start the line at zero width (invisible) */
     transform: scaleX(0); 
