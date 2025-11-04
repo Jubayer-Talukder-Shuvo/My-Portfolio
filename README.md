@@ -28,5 +28,3 @@ I also enjoy working with **AI technologies** and continuously learning new tool
 
 ---
 
-## 📂 Folder Structure
-
