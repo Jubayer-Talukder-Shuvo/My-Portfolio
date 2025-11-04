@@ -179,11 +179,17 @@ main{
     background-color: #212122;
 }
 
+.skillCard:active{
+    box-shadow: 0 0 10px #00aaff,
+            0 0 20px #00aaff,
+            0 0 40px #00aaff;
+}
+
 .skillCard img{
     margin-top: 20px;
     width: 80px;
 
-    z-index: 51;
+    z-index: 1050;
 
 }
 
@@ -195,7 +201,12 @@ main{
 
 
 
+/* project */
+
+
 .projects-section{
+    /* position: relative; */
+    z-index: 105;
     border-radius: 20px;
     margin: 10px 0px;
     padding: 20px;
@@ -204,7 +215,7 @@ main{
     background-color: #0C0D0C;
 }
 
-.projects-section h1{
+.projects-section > h1{
     color: #00aaff;
     margin: 10px auto;
     font-size: 55px;
@@ -213,5 +224,79 @@ main{
     width: fit-content;
     border-radius: 20px;
     padding: 20px 40px;
+    z-index: 1;
+    position: relative;
 }
+
+
+.project-card{
+    border-radius: 10px;
+    z-index: 51;
+    background-color: #222222;
+    margin: 40px 20px;
+    padding: 25px;
+    z-index: 50;
+    cursor:pointer;
+    background: linear-gradient(45deg, #010203, #353b471f);
+    border: 2px solid #a0a4a580;
+}
+
+.project-card:active{
+    box-shadow: 0 0 10px #00aaff,
+                0 0 20px #00aaff,
+                0 0 40px #00aaff;
+}
+
+
+
+.projects-card-img img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    z-index: 50;
+    position: relative;
+}
+
+
+
+.projectcardHeadline{
+    z-index: 50;
+    position: relative;
+}
+
+.description{
+    margin: 20px 0px;
+    /* padding: 0px 20px; */
+    color: rgb(150, 150, 150);
+    /* text-align: center; */
+    z-index: 50;
+    position: relative;
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    z-index: 50;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    z-index: 51;
+    margin: 0px 10px;
+    position: relative;
+
+}
+
+.shasthobondhu .projects-card-img img{
+    object-position: 0% 26%; 
+    height: 66vh;
+}
+
+
 

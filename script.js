@@ -15,3 +15,4 @@ function addborderGradient(className) {
 
 addborderGradient('extrainfo');
 addborderGradient('skillCard');
+addborderGradient('project-card');
