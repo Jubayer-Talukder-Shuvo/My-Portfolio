@@ -100,13 +100,14 @@ main{
     /* border: 2px solid white; */
     width: fit-content;
     background-color: #212122;
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
 .extrainfo div{
     padding-right: 43px;
     text-align: center;
     width: 33%;
-
+    z-index: 50;
 }
 
 .experience, .projects{
@@ -127,4 +128,90 @@ main{
     border: 3px solid white;
 }
 
+
+
+
+.skills{
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 30px;
+    /* background: linear-gradient(358deg, #000000, #f4f2f200);
+     */
+    background-color: #0C0D0C;
+}
+
+.skills h1{
+    color: #00aaff;
+    margin: 10px auto;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.skills h1 div{
+    z-index: 5;
+}
+
+
+.skillsCards{
+    margin: 17px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.skillCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    z-index: 50;
+    background-color: #212122;
+}
+
+.skillCard img{
+    margin-top: 20px;
+    width: 80px;
+
+    z-index: 51;
+
+}
+
+
+.skillCard div{
+    z-index: 51;
+    margin: 10px 0px;
+}
+
+
+
+.projects-section{
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 20px;
+    /* background: linear-gradient(358deg, #000000, #f4f2f200);
+     */
+    background-color: #0C0D0C;
+}
+
+.projects-section h1{
+    color: #00aaff;
+    margin: 10px auto;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
 
