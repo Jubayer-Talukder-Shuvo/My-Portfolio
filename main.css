@@ -1,4 +1,130 @@
 main{
-    height: 85vh;
+    color: whitesmoke;
     background-color: rgb(37, 42, 37);
 }
+
+.container{
+    border-radius: 20px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(358deg, #000000, #f4f2f200);
+    
+}
+
+
+
+.bigName h1{
+    margin: 10px 0px;
+    font-size: 55px;
+    
+}
+
+.shortIntro{
+    color: rgb(112, 112, 112);
+    margin-left: auto;
+    margin: 15px 0px;
+    padding-right: 20vw;
+    transition: color 0.5s;
+    /* width: fit-content; */
+}
+
+
+.shortIntro:hover{
+    color: white;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+}
+
+.button1{
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #00aaff;
+    background-color: #00aaff;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: #008ecc;
+    /* border: 2px solid #008ecc; */
+}
+
+
+.button1:active {
+  box-shadow:  0 0 10px #00aaff,
+               0 0 20px #00aaff,
+               0 0 40px #00aaff;
+  /* transform: scale(0.98);  */
+}
+
+.button2{
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #171717;
+    border: 2px solid #707070;
+    color: #707070;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button2:hover{
+    /* background-color: #00aaff; */
+    border: 2px solid white;
+    color: white;
+}
+
+
+.button2:active{
+  box-shadow: 0 0 10px #ffffff,
+              0 0 20px #ffffff,
+              0 0 40px #ffffff;
+}
+
+
+.extrainfo{
+    border-radius: 10px;
+    margin: 30px 0px;
+    display: flex;
+    /* align-items: center; */
+    padding: 15px;
+    /* border: 2px solid white; */
+    width: fit-content;
+    background-color: #212122;
+}
+
+.extrainfo div{
+    padding-right: 43px;
+    text-align: center;
+    width: 33%;
+
+}
+
+.experience, .projects{
+    border-right: 2px solid #00aaff;
+    border-right: 2px solid #4c4d4d;
+    
+}
+
+.num{
+    margin-bottom: 8px;
+    color: #00aaff;
+}
+
+
+
+.image img{
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+

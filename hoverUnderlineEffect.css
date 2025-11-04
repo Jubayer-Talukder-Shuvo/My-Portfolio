@@ -4,6 +4,7 @@
   color: #ffffff;
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 .hover-underline::after,

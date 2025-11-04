@@ -16,7 +16,7 @@ a{
 }
 
 header{
-
+  z-index: 99;
   height: 100px;
   color: white;
   background: #171717;
@@ -25,6 +25,7 @@ header{
 }
 
 nav{
+  z-index: 100;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 0 10px;

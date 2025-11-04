@@ -29,3 +29,34 @@
     /* On hover, scale the line to full width (100%) */
     transform: scaleX(1);
 }
+
+
+/* For num class */
+.num {
+    position: relative; 
+    display: inline-block; 
+}
+
+.num::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 2px; 
+    background-color: #00aaff; 
+    
+
+    transform: scaleX(0); 
+    
+
+    transition: transform 0.3s ease-out; 
+
+    transform-origin: left; 
+}
+
+
+.num:hover::after {
+
+    transform: scaleX(1);
+}
