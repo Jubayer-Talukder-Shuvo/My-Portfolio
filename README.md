@@ -7,8 +7,7 @@ This project showcases my work, skills, and projects as a **Web Developer** and 
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** [https://yourusername.github.io/](https://yourusername.github.io/)  
-_(Replace with your actual deployed link)_
+🔗 **Live Website:** https://jubayer-talukder-shuvo.github.io/My-Portfolio/
 
 ---
 
@@ -28,6 +27,4 @@ I also enjoy working with **AI technologies** and continuously learning new tool
 - **GitHub Pages** – deployment
 
 ---
-
-## 📂 Folder Structure
 
