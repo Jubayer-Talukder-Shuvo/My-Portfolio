@@ -23,7 +23,6 @@ I also enjoy working with **AI technologies** and continuously learning new tool
 - **HTML5** – structure of the site  
 - **CSS3** – styling and responsive design  
 - **JavaScript** – interactivity and dynamic effects  
-- **Tailwind CSS / Bootstrap** (if used)  
 - **GitHub Pages** – deployment
 
 ---
