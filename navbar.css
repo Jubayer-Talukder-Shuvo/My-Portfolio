@@ -164,7 +164,7 @@ nav ul li{
 
 
 
-@media (min-width: 357px) and (max-width: 1143px) {
+@media screen and (min-width: 357px) and (max-width: 1143px) {
   header{
     height: 180px;
   }
@@ -189,7 +189,7 @@ nav ul li{
 
 }
 
-@media (max-width: 501px) {
+@media screen and (max-width: 501px) {
 
   header{
     height: auto;

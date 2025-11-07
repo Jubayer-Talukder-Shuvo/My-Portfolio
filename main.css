@@ -310,7 +310,7 @@ main{
 
 
 
-@media (max-width: 1133px) {
+@media screen and (max-width: 1133px) {
     .container{
         flex-direction: column-reverse;
         align-items: center;
@@ -360,7 +360,7 @@ main{
 }
 
 
-@media (max-width: 880px){
+@media screen and (max-width: 880px){
 
     .shortIntro{
         display: none;
@@ -373,14 +373,14 @@ main{
 }
 
 
-@media (max-width: 625px){
+@media screen and (max-width: 625px){
     .shortIntro2{
         display: none;
     }
 }
 
 
-@media (max-width: 470px){
+@media screen and (max-width: 470px){
     .bigName h1{
         font-size: 23px;
     }
