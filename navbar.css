@@ -78,6 +78,10 @@ nav ul li{
   cursor: pointer;
 }
 
+.navShower{
+  display: none;
+}
+
 .socialLinks{
   display: flex;
 }
@@ -182,6 +186,7 @@ nav ul li{
 
   nav ul{
     margin: 30px 0px;
+
   }
 
   .socialLinks{
@@ -199,17 +204,18 @@ nav ul li{
   nav{
     height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: normal;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .name{
-    margin-top: 15px;
-    text-align: center;
+    margin: 20px 30px 20px 0px;
+    text-align: left;
     font-weight: 600;
+    font-size: 25px !important;
   }
 
-  nav ul{
+  /* nav ul{
     margin-top: 15px;
     flex-direction: column;
     align-items: center;
@@ -217,10 +223,20 @@ nav ul li{
 
   nav ul li{
     margin: 7px 0px;
+  } */
+
+  /* .socialLinks{
+    margin: 20px 0px;
+  } */
+
+  nav ul{
+    display: none;
   }
 
-  .socialLinks{
+  .navShower{
+    display: block;
     margin: 20px 0px;
+    cursor: pointer;
   }
 
 }
