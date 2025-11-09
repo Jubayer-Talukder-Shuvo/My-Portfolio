@@ -354,7 +354,7 @@ main{
     }
 
     .image img{
-        width: 30vw;
+        width: 40vw;
     }
 
 }
@@ -424,8 +424,12 @@ main{
     }
 
     .skills > h1{
-        font-size: 23px;
+        font-size: 55px;
         padding: 5px 10px !important;
+    }
+
+    .projects-section>h1{
+        padding: 0px ;
     }
 
 
