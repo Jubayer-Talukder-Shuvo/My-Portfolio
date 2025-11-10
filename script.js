@@ -16,3 +16,18 @@ function addborderGradient(className) {
 addborderGradient('extrainfo');
 addborderGradient('skillCard');
 addborderGradient('project-card');
+
+
+
+function navShow() {
+    const navUl = document.querySelector(".nav-ul");
+    navUl.classList.add("show");
+
+}
+
+function navClose() {
+    const navUl = document.querySelector(".nav-ul");
+    navUl.classList.remove("show");
+
+}
+
